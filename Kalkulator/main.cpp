@@ -2,18 +2,18 @@
 
 using namespace std;
 
-int main(int argc, char** argv) {
-	float a, b;
+int main() {
+	double a, b;
 	
 	cout << "Podaj pierwsza liczbe: ";
 	cin >> a;
 	cout << "Podaj druga liczbe: ";
 	cin >> b;
 	
-	float dodawanie = a + b;
-	float odejmowanie = a - b;
-	float mnozenie = a * b;
-	float dzielenie = a / b;
+	double dodawanie = a + b;
+	double odejmowanie = a - b;
+	double mnozenie = a * b;
+	double dzielenie = a / b;
 	
 	cout << a << "+" << b << "=" << dodawanie << endl;
 	cout << a << "-" << b << "=" << odejmowanie << endl;
