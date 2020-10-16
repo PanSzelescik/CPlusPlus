@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void prostokat() {
+int prostokat() {
 	cout << "Program obliczajacy pole prostokata" << endl;
 	int a, b;
 	cout << "Podaj bok a: ";
@@ -11,6 +11,7 @@ void prostokat() {
 	cin >> b;
 	int P = a * b;
 	cout << "Pole prostokata wynosi: " << P;
+	return 0;
 }
 
 int trapez() {
