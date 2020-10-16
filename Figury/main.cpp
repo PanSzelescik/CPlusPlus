@@ -2,9 +2,7 @@
 
 using namespace std;
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int prostokat() {
+void prostokat() {
 	cout << "Program obliczajacy pole prostokata" << endl;
 	int a, b;
 	cout << "Podaj bok a: ";
@@ -13,7 +11,6 @@ int prostokat() {
 	cin >> b;
 	int P = a * b;
 	cout << "Pole prostokata wynosi: " << P;
-	return 0;
 }
 
 int trapez() {
