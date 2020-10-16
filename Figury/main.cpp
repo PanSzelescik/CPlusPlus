@@ -40,7 +40,7 @@ int kolo() {
 	return 0;
 }
 
-int main(int argc, char** argv) {
+int main() {
 	cout << "Jakie pole chcesz obliczyc?" << endl;
 	cout << "1) Prostokat" << endl;
 	cout << "2) Trapez" << endl;
