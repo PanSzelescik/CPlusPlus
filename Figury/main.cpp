@@ -57,7 +57,7 @@ int main(int argc, char** argv) {
 		case 3:
 			return kolo();
 		default:
-			cout << "Nieznana figura!";
+			cout << "Nieznana figura!!!";
 			return 1;
 	}
 }
