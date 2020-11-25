@@ -4,4 +4,4 @@ project(CPlusPlus)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CPlusPlus
-        Petle/main.cpp)
+        Tablice/main.cpp)
