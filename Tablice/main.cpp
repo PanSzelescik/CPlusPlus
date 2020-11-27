@@ -24,7 +24,7 @@ void zadanie2() {
 
 void zadanie3() {
     cout << "Zadanie 3." << endl;
-    int liczby[200] = {};
+    int liczby[200];
     for (int i = 0; i < 200; i++) {
         liczby[i] = i + 1;
     }
@@ -37,7 +37,7 @@ void zadanie3() {
 
 void zadanie4() {
     cout << "Zadanie 4." << endl;
-    int liczby[50] = {};
+    int liczby[50];
     int liczba = 0;
     int index = 0;
     while (index < 50) {
@@ -56,7 +56,7 @@ void zadanie4() {
 
 void zadanie5() {
     cout << "Zadanie 5." << endl;
-    char litery[52] = {};
+    char litery[52];
     int index = 0;
     for (int i = 65; i <= 122; i++) {
         litery[index] = (char) i;
@@ -73,7 +73,7 @@ void zadanie5() {
 
 void zadanie6() {
     cout << "Zadanie 6." << endl;
-    int liczby[10] = {};
+    int liczby[10];
     for (int i = 0; i < 10; i++) {
         int x;
         cout << "Podaj " << i + 1 << " liczbe:" <<  endl;
@@ -88,7 +88,7 @@ void zadanie6() {
 
 void zadanie7_8i9() {
     cout << "Zadanie 7." << endl;
-    int liczby[100] = {};
+    int liczby[100];
     for (int i = 0; i < 100; i++) {
         liczby[i] = rand();
     }
@@ -114,7 +114,7 @@ void zadanie7_8i9() {
 
 void zadanie10() {
     cout << "Zadanie 10." << endl;
-    int liczby[20] = {};
+    int liczby[20];
     for (int i = 0; i < 20; i++) {
         liczby[i] = (rand() % 26) + 25;
     }
