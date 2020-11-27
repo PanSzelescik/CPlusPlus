@@ -6,7 +6,7 @@ using namespace std;
 
 void zadanie1() {
     cout << "Zadanie 1." << endl;
-    int liczby[10] = {2, 5, 7, 1, 2, 3, 3, 52423, 190230, 23423};
+    int liczby[10] = {5234, 2, 4, 1234, 834, 3, 3, 9846, 2983, 73254};
     for (int liczba : liczby) {
         cout << liczba << " ";
     }
@@ -76,7 +76,7 @@ void zadanie6() {
     int liczby[10] = {};
     for (int i = 0; i < 10; i++) {
         int x;
-        cout << "Podaj liczbe:" << endl;
+        cout << "Podaj " << i + 1 << " liczbe:" <<  endl;
         cin >> x;
         liczby[i] = x;
     }
